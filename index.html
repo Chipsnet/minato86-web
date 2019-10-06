@@ -3,25 +3,25 @@
     <head>
         <!-- 文字コード設定 -->
         <meta charset="utf-8">
-        
+
         <!-- jsファイル読み込み -->
         <script src="js/jquery.js"></script>
         <script src="js/bootstrap.js"></script>
         <script src="js/lity.js"></script>
-        
+
         <!-- cssファイル読み込み -->
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/lity.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-        
+
         <style>
         @media screen and (max-width: 480px) {
             .mobile {
-                font-size : 22px; 
+                font-size : 22px;
             }
             .mobile-h {
-                font-size : 15px; 
+                font-size : 15px;
             }
         }
 
@@ -29,7 +29,7 @@
 
         <!-- Googleフォント読み込み -->
         <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:700,900" rel="stylesheet">
-        
+
         <!-- アイコン読み込み -->
         <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
@@ -43,7 +43,7 @@
 
         <!-- 画面サイズ設定 -->
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        
+
         <!-- Google用メタタグ -->
         <meta itemprop="name" content="Minato86.me">
         <meta itemprop="description" content="Minato86 OfficialSite">
@@ -68,16 +68,16 @@
     </head>
     <body>
         <!-- 読み込み中の画面 -->
-        <div id="loader-bg"> 
+        <div id="loader-bg">
           <div id="loader">
             <img src="https://i.gyazo.com/48dc43f50223fedd44b418282b0e2f57.gif" width="300" height="300" alt="Loading..." class="mx-auto d-block"/>
           </div>
         </div>
-        
+
         <!-- 読み込み画面表示スクリプト -->
         <script>
             $(function() {
-              var h = $(window).height(); 
+              var h = $(window).height();
 
               $('#contents').css('display','none');//コンテンツを非表示に
               $('#loader-bg ,#loader').height(h).css('display','block');//ローディング画像を表示
@@ -100,7 +100,7 @@
               $('#loader').delay(600).fadeOut(300);
             }
         </script>
-        
+
         <!-- 本文 -->
         <div id="contents">
             <div class="jumbotron jumbotron-fluid">
@@ -241,6 +241,15 @@
                 <h5>実績</h5>
                 <p>
                     <font size="+1">
+                        <a href="https://yaki-tori.work/" target="_blank">yaki鳥 サイト制作</a><br>
+                        <a href="https://lab.m86.work/2019/09/heyrender.html" target="_blank">HeyRender リリース</a><br>
+                        <a href="https://www.youtube.com/watch?v=E5qPziCTopg&t=64s" target="_blank">限界合作3 主催</a><br>
+                        <a href="https://lab.m86.work/2019/07/youtubelike.html" target="_blank">拡張機能「Like?」 リリース</a><br>
+                        <a href="https://lab.m86.work/2019/08/nicoloader.html" target="_blank">Nicoloader リリース</a><br>
+                        <a href="https://lab.m86.work/2019/08/twitterdlvideotter.html" target="_blank">Videotter リリース</a><br>
+                        <a href="https://lab.m86.work/2019/07/instagraminstagram-with.html" target="_blank">Instagram With リリース</a><br>
+                        <a href="https://www.youtube.com/watch?v=H0DegZaKYJQ" target="_blank">限界合作2 主催</a><br>
+                        <a href="https://lab.m86.work/" target="_blank">MinatoLab サイト設立</a><br>
                         minato86.me サイト設立<br>
                         <a href="https://outlogging.cf" target="_blank">OutLogging サイト制作</a><br>
                         創作団体「OutLogging」立ち上げ<br>
@@ -250,9 +259,6 @@
                         <a href="https://apps.m86.work/magicalcv/" target="_blank">MagicalConverter サービス開始</a>
                     </font>
                 </p>
-                <div class="text-center">
-                    <a href="#"><i class="fas fa-angle-down"></i> もっと見る</a>
-                </div>
                 <h2 class="mt-5">お問い合わせ</h2>
                 <hr width="30" align="left" color="black">
                 <div class="container-fluid mt-4 mb-5">
