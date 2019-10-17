@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>FizzBuzz</title>
+    </head>
+    <body>
+        <textarea id="main" style="width: 100%; height: 30vh;"></textarea>
+        <button onclick="start()">開始</button>
+        <script>
+            //init
+            var cnt=1;
+            target = document.getElementById("main");
+
+            target.value = "FizzBuzz Ready.\n"
+
+            //main
+            function start() {
+
+                for(i=1;i<=100;i++){
+                    if ((i % 3 == 0) && (i % 5 ==0)){
+                        target.value += "FizzBuzz\n"
+                    } else if (i % 3 == 0) {
+                        target.value += "Fizz\n"
+                    } else if (i % 5 == 0) {
+                        target.value += "Buzz\n"
+                    } else {
+                        target.value += i+"\n"
+                    }
+                    target.scrollTop = target.scrollHeight;
+                }
+            }
+        </script>
+    </body>
+</html>
