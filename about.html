@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <!-- meta -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Minato86.me</title>
+
+        <!-- css -->
+        <link rel="stylesheet" href="/css/about.css">
+
+        <!-- script -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script>
+            (function(d) {
+                var config = {
+                    kitId: 'ltq6rgy',
+                    scriptTimeout: 3000,
+                    async: true
+                },
+                h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+            })(document);
+            $(() => {
+                $('a').click(function(){
+                    let url = $(this).attr('href');
+
+                    if (url !== undefined) {
+                        $('body').fadeOut(300);
+                        setTimeout(() => location.href = url, 300);
+                    }
+                    return false;
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <p><a href="/">＜ back to top</a></p>
+        <h1>About</h1>
+        <h2>Minato86</h2>
+        <img src="https://i.gyazo.com/f1474692c18a4db231034524dd85b794.jpg">
+        <p>Web系プログラマ。バックエンドとフロントエンド共に勉強中。企画や企画運営、レーベル運営なども行っている。<br>
+        Webデザイナーとしても活動しており、過去に制作したサイトはWorksページから確認できる。</p><br>
+        <p>
+        <a href="//genkaimusic.com">限界音楽村</a> 主宰 <br>
+        <a href="//genkai.open-w.net">限界大会</a> 運営 <br>
+        <a href="https://pvrennzoku.xxxxxxxx.jp/">PV連続投稿企画</a> 実行委員 <br>
+        笹フユ スタッフ <br>
+        <a href="//outlogging.work">OutLogging</a> 運営 <br>
+        <a href="//gohyaku.ml">500ml Project</a> 運営<br>
+        CreatorsMinecraftServer サーバー管理人</p>
+        <h2 style="margin-top: 80px;">Links</h2>
+        <p>Twitter: <a href="//twitter.com/minatoo86">https://twitter.com/minatoo86</a></p>
+        <p>YouTube: <a href="//to0.be/HQ91gc">https://to0.be/HQ91gc</a></p>
+        <p>Github: <a href="//github.com/Chipsnet">https://github.com/Chipsnet</a></p>
+        <p>Blog: <a href="//minato86.hatenablog.com/">https://minato86.hatenablog.com/</a></p>
+        <p>Misskey: <a href="//misskey.io/@Minato86">https://misskey.io/@Minato86</a></p>
+        <p>tobe: <a href="//to0.be/user/user?id=1338">http://to0.be/user/user?id=1338</a></p>
+        <p>Pawoo: <a href="//pawoo.net/@minato86">https://pawoo.net/@minato86</a></p>
+        <h2 style="margin-top: 80px;">Skills</h2>
+        <h3>Language</h3>
+        <p>JavaScript / HTML / CSS / Markdown / PHP / Python / C# / Java / Ruby
+             / HotSoupProcessor
+        </p>
+        <h3>Framework</h3>
+        <p>Node.js / Nuxt.js / Electron</p>
+        <h3>Tools</h3>
+        <p>Visual Studio Code / Visual Studio / Atom / GitKraken / Git / Unity
+            / Adobe XD / Adobe Premiere Pro / GIMP / AviUtl / Blender
+        </p>
+        <h3>Platform</h3>
+        <p>Firebase / Azure</p>
+    </body>
+</html>

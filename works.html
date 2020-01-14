@@ -8,16 +8,18 @@
         <title>Minato86.me</title>
 
         <!-- css -->
-        <link rel="stylesheet" href="/css/index.css">
+        <link rel="stylesheet" href="/css/works.css">
+        <link rel="stylesheet" href="/css/markdown.css">
 
         <!-- script -->
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
         <script>
-            ((d) => {
+            (function(d) {
                 var config = {
-                kitId: 'ltq6rgy',
-                scriptTimeout: 3000,
-                async: true
+                    kitId: 'ltq6rgy',
+                    scriptTimeout: 3000,
+                    async: true
                 },
                 h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
             })(document);
@@ -26,7 +28,7 @@
                     let url = $(this).attr('href');
 
                     if (url !== undefined) {
-                        $('.main').fadeOut(300);
+                        $('body').fadeOut(300);
                         setTimeout(() => location.href = url, 300);
                     }
                     return false;
@@ -35,17 +37,17 @@
         </script>
     </head>
     <body>
-        <section class="main">
-            <div>
-                <h1>Minato86</h1>
-                <p>Programmer WebDesigner</p>
-                <p>
-                    <a href="about.html">About</a> / 
-                    <a href="works.html">Works</a> / 
-                    <a href="services.html">Services</a> /
-                    <a href="contact.html">Contact</a>
-                </p>
-            </div>
-        </section>
+        <p><a href="/">＜ back to top</a></p>
+        <h1>Works</h1>
+        <div class="markdown-body">
+        </div>
+        <script>
+            $.get('https://gist.githubusercontent.com/Chipsnet/d86f75a3853f5570b2675046c14f4c0c/raw/works.md')
+            .done(data => {
+                $('.markdown-body').html(marked(data))
+            })
+            
+        </script>
+
     </body>
 </html>
