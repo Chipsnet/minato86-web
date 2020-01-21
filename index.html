@@ -26,7 +26,7 @@
                     let url = $(this).attr('href');
 
                     if (url !== undefined) {
-                        $('.main').fadeOut(300);
+                        $('#main').fadeOut(300);
                         setTimeout(() => location.href = url, 300);
                     }
                     return false;
@@ -35,7 +35,7 @@
         </script>
     </head>
     <body>
-        <section class="main">
+        <section id="main" class="main">
             <div>
                 <h1>Minato86</h1>
                 <p>Programmer WebDesigner</p>
