@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: minato86.me
-Token: 202dd54d92af38048c5dccd77a3f7a98325a47367cf970f94c66e8a7da6486cb
