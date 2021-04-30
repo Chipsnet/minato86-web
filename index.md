@@ -33,6 +33,18 @@
 クリエイターの夢の舞台として立ち上げた合作企画です。        
 クオリティと驚きを追求した映像合作です。
 
+### WARMusic
+
+Discord用音楽Botです。      
+自宅RaspberryPi上で動作しています。
+
+[招待はこちら](https://discord.com/oauth2/authorize?client_id=550769348944330797&permissions=8&scope=bot)
+
+### [Creators' Cafe 彩屋](https://discord.gg/u6W2BrG9zj)
+
+作業や読書を楽しむ人のためのDiscordサーバーです。       
+常駐Botが素敵な店内BGMを流しています。
+
 ## 運営終了・完了
 
 [引きこもれ！クリエイターの森（2020）: コロナが流行しだした頃に行った講義企画です。準備から実行までが死ぬほど速かったので楽しかった。](https://forest.open-w.net/)
