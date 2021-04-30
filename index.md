@@ -9,6 +9,8 @@
 
 ## 運営中
 
+現在運営しているサービスや企画、ウェブサイトです。
+
 ### [限界大会](https://genkai.work)
 
 クリエイター向けの企画を運営する団体です。      
@@ -18,6 +20,18 @@
 
 限界大会の元となったコミュニティDiscordサーバーです。      
 クリエイターの憩いの場として機能することを目的としています。
+
+### Misskeyインスタンス「openworld.net」
+
+国産分散型SNSのMisskeyインスタンス、openworld.netを運営しています。     
+現在は自宅のサーバーで稼働しています。
+
+[OpenWorld\.net](https://misskey.open-w.net/)
+
+### [限界合作](https://www.youtube.com/playlist?list=PLPRh71R74VuIbyk6N7dPzghMUQN6oIAM0)
+
+クリエイターの夢の舞台として立ち上げた合作企画です。        
+クオリティと驚きを追求した映像合作です。
 
 ## 運営終了・完了
 
